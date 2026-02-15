@@ -1,0 +1,28 @@
+{
+  "id": "custom-trpg",
+  "title": "Custom TRPG System",
+  "description": "자작 TRPG 시스템 - 서열과 속성 기반 판정 시스템",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "Custom Developer"
+    }
+  ],
+  "esmodules": ["module/custom-trpg.mjs"],
+  "styles": ["css/custom-trpg.css"],
+  "languages": [
+    {
+      "lang": "ko",
+      "name": "한국어",
+      "path": "lang/ko.json"
+    }
+  ],
+  "gridDistance": 5,
+  "gridUnits": "m",
+  "primaryTokenAttribute": "health",
+  "secondaryTokenAttribute": "sanity"
+}
